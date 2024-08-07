@@ -3,7 +3,7 @@ let beratBadan = 90;
 let bmi = beratBadan / (tinggiBadan * tinggiBadan);
 
 let statusBeratBadan;
-if (bmi < 18.5) {
+if (bmi<18.5) {
   statusBeratBadan = "Kekurangan berat badan";
 } else if (bmi >= 18.5 && bmi <= 24.9) {
       statusBeratBadan = "Normal (ideal)";
