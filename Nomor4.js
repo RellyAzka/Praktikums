@@ -1,11 +1,9 @@
-let sukuPertama = 4
-let rasio = 3
-let jumlahSuku = 10
-let jumlahTotal = 0
+let sukuPertama = 4;
+let rasio = 3;
+let jumlahSuku = 10;
 
+console.log("Deret geometri:");
 for (let i = 0; i < jumlahSuku; i++) {
-    let sukuSekarang = sukuPertama * Math.pow(rasio,i)  //MENGHITUNG SUKU KE i
-    jumlahTotal += sukuSekarang;  //SUKU KE i
+    let sukuSaatIni = sukuPertama * Math.pow(rasio, i);
+    console.log(`Suku ke-${i + 1}: ${sukuSaatIni}`);
 }
-
-console.log(`Jumlah 10 Suku Pertama Adalah : ${jumlahTotal}`)
